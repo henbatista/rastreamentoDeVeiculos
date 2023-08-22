@@ -15,3 +15,13 @@
 - Apache Kafka
 - Prometheus
 - Grafana
+
+# Desenvolvimento de microserviços com Nest.js
+
+`Tecnologias utilizadas`
+
+- TypeScript/JavaScript
+- Nest.js
+- Prisma ORM e MongoDB
+- Rest
+- Google Maps API
