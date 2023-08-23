@@ -2,12 +2,15 @@
 
 `Plataforma de rastreamento de veículos`
 
+```bash
 - Sistema de rastreamento (backend/frontend)
 - Cálculo de frente das viagens
 - Dashboard e métricas do sistema
+```
 
 # Tecnologias
 
+```bash
 - Docker
 - Linguagem Go
 - Next.js
@@ -15,17 +18,19 @@
 - Apache Kafka
 - Prometheus
 - Grafana
+```
 
 # Desenvolvimento de microserviços com Nest.js
 
 `Tecnologias utilizadas`
 
+```bash
 - TypeScript/JavaScript
 - Nest.js
 - Prisma ORM e MongoDB
 - Rest
 - Google Maps API
-
+```
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
