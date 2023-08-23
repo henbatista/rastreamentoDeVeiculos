@@ -4,6 +4,22 @@ services:
   app:
     build: .
     ports:
-      - "3000:3000"
+      - '3000:3000'
     volumes:
       - .:/home/node/app
+
+      
+  db:
+    image: bitnami/mongodb:5.0.17
+    volumes:
+      - mongodb_data:bitnami/mongodb
+    environment:
+      MONGO_ROOT_PASSWORD: root
+      MONGO_REPLICA_SET_MODE: primary
+      MONGO_REPLICA_SET_KEY: 123456
+      MONGO_DATABASE: nest
+
+
+volumes:
+  mongodb_data:
+    driver: local
